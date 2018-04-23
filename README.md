@@ -1,5 +1,6 @@
 
-# String-SubString
+# String-SubString [JumpToCode](https://github.com/dimatarelkin/String-SubString/blob/master/NSString/NSString/ConverterString/StringConverter.m)
+
 Create your own class, input -> should be string, output -> method, should be return array of substrings.</br>
 output method -> get all the substrings between the open-close tags: "(", ")", "[", "]", "<", ">" from the string</br>
 
@@ -19,4 +20,4 @@ output method -> get all the substrings between the open-close tags: "(", ")", "
 @"Lorem \<(ipsum [dolor \<sit] amet), consectetur adipiscing elit\>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet\>. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget (nulla. Class aptent \<taciti [sociosqu ad] litora torquent per conubia\> nostra), per inceptos himenaeos."</br>
 <i>Result:</i>  
 -> "(ipsum [dolor <sit] amet), consectetur adipiscing elit>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet", "ipsum [dolor <sit] amet", "sit] amet), consectetur adipiscing elit", "dolor <sit", "nulla. Class aptent <taciti [sociosqu ad] litora torquent per conubia> nostra", "taciti [sociosqu ad] litora torquent per conubia", "sociosqu ad"</br>
->>>>>>> 3cddf295d1a9a894356b7d40c428a14827fd75fb
+
