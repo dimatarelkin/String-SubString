@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323869162088EECF0000E419 /* StringConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 323869152088EECF0000E419 /* StringConverter.m */; };
 		32AA6C8A20869E8300777161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AA6C8920869E8300777161 /* AppDelegate.m */; };
 		32AA6C8D20869E8300777161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AA6C8C20869E8300777161 /* ViewController.m */; };
 		32AA6C9020869E8300777161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AA6C8E20869E8300777161 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323869142088EECF0000E419 /* StringConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringConverter.h; sourceTree = "<group>"; };
+		323869152088EECF0000E419 /* StringConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringConverter.m; sourceTree = "<group>"; };
 		32AA6C8520869E8300777161 /* NSString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AA6C8820869E8300777161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32AA6C8920869E8300777161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323869172088EED90000E419 /* ConverterString */ = {
+			isa = PBXGroup;
+			children = (
+				323869142088EECF0000E419 /* StringConverter.h */,
+				323869152088EECF0000E419 /* StringConverter.m */,
+			);
+			path = ConverterString;
+			sourceTree = "<group>";
+		};
 		32AA6C7C20869E8300777161 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		32AA6C8720869E8300777161 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				323869172088EED90000E419 /* ConverterString */,
 				32AA6C8820869E8300777161 /* AppDelegate.h */,
 				32AA6C8920869E8300777161 /* AppDelegate.m */,
 				32AA6C8B20869E8300777161 /* ViewController.h */,
@@ -144,6 +157,7 @@
 				32AA6C8D20869E8300777161 /* ViewController.m in Sources */,
 				32AA6C9820869E8500777161 /* main.m in Sources */,
 				32AA6C8A20869E8300777161 /* AppDelegate.m in Sources */,
+				323869162088EECF0000E419 /* StringConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
